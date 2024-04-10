@@ -1,0 +1,20 @@
+/*
+=============
+Reset Style
+=============
+*/
+:root {
+
+}
+html {
+  direction: rtl;
+  font-size: 62.5%; /*62.5% = 10px*/
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto Regular";
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
