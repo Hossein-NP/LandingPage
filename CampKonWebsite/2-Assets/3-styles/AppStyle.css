@@ -80,6 +80,10 @@ App Style
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  
+}
+.nav-btn--open .nav-btn__line {
+  background-color: transparent;
 }
 .nav-btn__line {
   display: block;
@@ -92,6 +96,11 @@ App Style
   -ms-border-radius: 10rem;
   -o-border-radius: 10rem;
   position: relative;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
 }
 .nav-btn__line::after , .nav-btn__line::before {
   content: '';
@@ -104,12 +113,31 @@ App Style
   -ms-border-radius: 10rem;
   -o-border-radius: 10rem;
   position: absolute;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
 }
 .nav-btn__line::after {
   top: -8px;
 }
+.nav-btn--open  .nav-btn__line::after{
+  transform: rotate(45deg) translate(5px,7px);
+  -webkit-transform: rotate(45deg) translate(5px,6px);
+  -moz-transform: rotate(45deg) translate(5px,7px);
+  -ms-transform: rotate(45deg) translate(5px,7px);
+  -o-transform: rotate(45deg) translate(5px,7px);
+}
 .nav-btn__line::before {
   top: 8px;
+}
+.nav-btn--open  .nav-btn__line::before{
+  transform: rotate(-45deg) translate(5px,-6px);
+  -webkit-transform: rotate(-45deg) translate(5px,-6px);
+  -moz-transform: rotate(-45deg) translate(5px,-6px);
+  -ms-transform: rotate(-45deg) translate(5px,-6px);
+  -o-transform: rotate(-45deg) translate(5px,-6px);
 }
 .nav-logo {
   display: block;
