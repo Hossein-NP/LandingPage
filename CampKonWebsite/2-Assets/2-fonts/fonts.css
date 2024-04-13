@@ -10,3 +10,15 @@
   font-family: "Archivo Black";
   src: url("./Archivo/Archivo-Black.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Vazir Medium";
+  src: url("./vazir/Vazir-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazir Regular";
+  src: url("./vazir/Vazir-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazir Black";
+  src: url("./vazir/Vazir-Bold.woff2") format("woff2");
+}
