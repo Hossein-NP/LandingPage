@@ -16,11 +16,26 @@
     display: block;
   }
   .header__links {
-    display: block;
+    display: flex;
   }
 }
 @media all and (min-width: 992px) {
-  
+  .header__links {
+    width: 12rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .header__link {
+    display: block;
+  }
+  .header__link-icon {
+   display: none;
+  }
 }
 @media all and (min-width: 1200px) {
 
