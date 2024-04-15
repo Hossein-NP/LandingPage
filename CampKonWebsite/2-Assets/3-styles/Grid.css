@@ -37,11 +37,6 @@ media queries
     width: 114rem;
   }
 }
-@media all and (min-width: 1200px) {
-  .container {
-    width: 114rem;
-  }
-}
 @media all and (min-width: 1400px) {
   .container {
     width: 137rem;
