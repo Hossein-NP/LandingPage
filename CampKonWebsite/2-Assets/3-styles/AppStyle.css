@@ -73,8 +73,8 @@ App Style
   background: linear-gradient(to top ,rgba(55, 59, 53,0.6) , rgba(55, 59, 53,0.6)) , url(../1-images/3-image/header-bg.jpg);
   background-position: center;
   background-size: cover;
-  border-bottom-left-radius: 5rem;
-  border-bottom-right-radius: 5rem;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
 }
 .nav {
   padding: 2rem 0 2rem;
