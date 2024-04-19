@@ -75,6 +75,8 @@ App Style
   background-size: cover;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
+  padding-top: 2rem;
+
 }
 .nav {
   padding: 2rem 0 2rem;
@@ -269,6 +271,33 @@ App Style
   -moz-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
+  position: relative;
+}
+.menu-mobile__link:hover  {
+  padding-right: 2rem;
+}
+.menu-mobile__link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0.2rem;
+  background-color: var(--orange);
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+.menu-mobile__link:hover::before {
+  width: 1.5rem;
 }
 .menu-mobile__link:hover {
   color: var(--orange);
