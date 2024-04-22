@@ -10,6 +10,7 @@ Reset Style
   --dark-gray: #3B3735;
   --dark-gray-morphism: #3b37356c;
   --light-gray: #8D8D8D;
+  --bg-body: #FAF4F2;
 }
 html {
   direction: rtl;
@@ -23,6 +24,7 @@ body {
   font-size: 1.6rem;
   font-family: "vazir medium";
   line-height: 1.6;
+  background-color: var(--bg-body);
 }
 a {
   text-decoration: none;
@@ -60,12 +62,12 @@ App Style
 
 /*
 =============
-    1-row 1 >> header
+    row 1 >> header
      =============
 */
 /*
 =============
-    1-row 1 >> header >> nav
+    row 1 >> header >> nav
      =============
 */
 .header {
@@ -379,8 +381,8 @@ App Style
 
 /*
 =============
-    1-row 1 >> header >> content section
-     =============
+    row 1 >> header >> content section
+=============
 */
 
 .header-content {
@@ -388,11 +390,11 @@ App Style
   flex-direction: column;
   align-items: center;
   color: var(--txt-white-1);
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 .header-content__title {
   font-family: "vazir black";
-  font-size: 4.5rem;
+  font-size: 3rem;
   text-align: center;
   max-width: 27rem;
 }
@@ -436,9 +438,10 @@ App Style
 }
 .service {
   background-color: var(--txt-white-1);
-  width: 30rem;
+  /* width: 30rem; */
   height: 29rem;
   margin: 2rem auto;
+  padding: 0 4rem;
   border-radius: 1.2rem;
   -webkit-border-radius: 1.2rem;
   -moz-border-radius: 1.2rem;
