@@ -415,3 +415,52 @@ App Style
 .header-content__link:hover {
   background-color: var(--dark-orange);
 }
+
+/*
+    row 2 >> Main
+*/
+/*
+=============
+    row 2 >> Main >> Services
+=============
+*/
+
+.main {
+
+}
+.container {
+
+}
+.services {
+
+}
+.service {
+  background-color: var(--txt-white-1);
+  width: 30rem;
+  height: 29rem;
+  margin: 5rem auto;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service__img {
+  display: block;
+  margin: 0 auto;
+}
+.service__title {
+  text-align: center;
+  margin: 2.5rem 0 1.1rem;
+  color: var(--dark-gray);
+  font-family: "vazir medium" , sans-serif , Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
+.service__caption {
+  text-align: center;
+  color: var(--dark-gray);
+  font-family: "vazir regular" , sans-serif , Arial, Helvetica, sans-serif;
+}
