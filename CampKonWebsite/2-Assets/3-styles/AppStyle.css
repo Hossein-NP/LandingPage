@@ -403,7 +403,7 @@ App Style
   font-size: 1.8rem;
   max-width: 27rem;
   text-align: center;
-  margin: 2.5rem 0;
+  margin: 3.5rem 0;
 }
 .header-content__link {
   color: var(--txt-white-1);
@@ -431,15 +431,17 @@ App Style
 
 }
 .services {
-  margin-top: -5rem;
+  margin-top: -15rem;
   display: flex;
   flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 .service {
   background-color: var(--txt-white-1);
   width: 30rem;
   height: 29rem;
-  margin: 2rem auto;
+  margin: 1.5rem 1rem;
   padding: 0 4rem;
   border-radius: 1.2rem;
   -webkit-border-radius: 1.2rem;
@@ -449,7 +451,7 @@ App Style
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  flex-grow: 1;
 }
 .service__img {
   display: block;
@@ -466,4 +468,51 @@ App Style
   text-align: center;
   color: var(--dark-gray);
   font-family: "vazir regular" , sans-serif , Arial, Helvetica, sans-serif;
+}
+/*
+=============
+    row 2 >> Main >> Destination
+=============
+*/
+.destination {
+  
+}
+.destination__img {
+  
+}
+.destination__title {
+  
+}
+.places {
+  
+}
+.place {
+  
+}
+.place__cover {
+  
+}
+.place__cover-img {
+  
+}
+.place__cover-icon {
+  
+}
+.place__cover-price {
+  
+}
+.place__cover-price-txt {
+  
+}
+.place__title {
+  
+}
+.place__caption {
+  
+}
+.place__btn {
+  
+}
+.destination__btn {
+  
 }
