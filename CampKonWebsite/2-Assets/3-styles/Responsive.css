@@ -43,8 +43,8 @@
    display: none;
   }
   .header-content__title {
-    font-size: 5rem;
-    max-width: 37rem;
+    font-size: 3rem;
+    max-width: 25rem;
   }
 }
 @media all and (min-width: 1200px) {
