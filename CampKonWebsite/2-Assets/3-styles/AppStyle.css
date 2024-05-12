@@ -431,7 +431,7 @@ App Style
 
 }
 .services {
-  margin-top: -15rem;
+  margin-top: -9rem;
   display: flex;
   flex-wrap: wrap;
   margin-left: -1rem;
@@ -475,44 +475,108 @@ App Style
 =============
 */
 .destination {
-  
+  text-align: center;
+  padding-top: 6rem;
 }
 .destination__img {
-  
+
 }
 .destination__title {
-  
+  margin: 3rem auto;
+  font-size: 3rem;
+  max-width: 28rem;
+  font-family: "Vazir Black";
+  color: var(--dark-gray);
 }
 .places {
   
 }
 .place {
-  
+  margin-bottom: 2rem;
+  background: var(--txt-white-1);
+  border-radius: 2rem;
+  padding: 2.5rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
-.place__cover {
-  
+.place__banner {
+  height: 18rem;
+  /* overflow: hidden; */
+  position: relative;
 }
-.place__cover-img {
-  
+.place__img {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
-.place__cover-icon {
-  
+.place__like {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-.place__cover-price {
-  
+.place__like-icon {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
 }
-.place__cover-price-txt {
+.place__like-icon--active {
+
+}
+.place__price {
+  background-color: var(--txt-white-1);
+  position: absolute;
+  bottom: -1.5rem;
+  color: var(--dark-gray);
+  margin: 0 auto;
+  width: 9rem;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  height: 3rem;
+}
+.place__price-text {
   
 }
 .place__title {
-  
+  color: var(--dark-gray);
+  font-size: 1.8rem;
 }
 .place__caption {
-  
+  color: var(--dark-gray);
+  font-family: "Vazir Regular";
+  margin: 1.1rem auto 2.5rem;
 }
 .place__btn {
-  
+  display: block;
+  margin: 2rem auto;
 }
-.destination__btn {
-  
+.btn {
+
 }
