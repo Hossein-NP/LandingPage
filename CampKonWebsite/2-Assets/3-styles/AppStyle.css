@@ -532,6 +532,7 @@ App Style
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+  cursor: pointer;
 }
 .place__like-icon {
   display: flex;
@@ -567,6 +568,8 @@ App Style
 .place__title {
   color: var(--dark-gray);
   font-size: 1.8rem;
+  font-family: "Vazir Black";
+  margin-top: 3.5rem;
 }
 .place__caption {
   color: var(--dark-gray);
@@ -575,8 +578,7 @@ App Style
 }
 .place__btn {
   display: block;
-  margin: 2rem auto;
-}
-.btn {
-
+  margin: 2rem auto 0;
+  color: var(--light-gray);
+  background-color: #8d8d8dad;
 }
